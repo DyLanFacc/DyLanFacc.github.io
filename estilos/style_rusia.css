@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*se cambia el modelo de la pagina pagina*/
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(https://content.skyscnr.com/m/16c9b8414ba8f28e/original/GettyImages-488261165.jpg?resize=1800px:1800px&quality=100);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-size: cover;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*con em se adapta al tamaño de la pagina*/
+    font-size: 1.5em;
+    /*min-heigt hacemos que la letra ocupe toda la pantalla*/
+    min-height: 100%;
+}
+body > * {
+    box-shadow:-1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    display: grid;/* proporciona una cuadrícula de una sola columna */
+    gap:10px;/*Separación de los elementos */
+}
+body{
+    grid-template-areas:
+    "header" 
+    "nav" 
+    "article" 
+    "aside" 
+    "footer";
+}
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+nav{
+    grid-area: nav;
+    background-color: blue;
+}
+article{
+    grid-area: article;
+    background-color: blueviolet;
+}
+aside{
+    grid-area: aside;
+    background-color: brown;
+}
+footer{
+    grid-area: footer;
+    background-color: coral;
+}
+
+/*EFECTO DESENFOQUE*/
+img{
+    width: 100%;
+}
+img:hover{
+    /* filter: blur(1px); desenfoque*/
+    /* filter: grayscale(80%); poner gris*/
+    /* filter: sepia(50%); descolorear el contorno*/
+    /* filter: saturate(180%) imagen saturada*/
+    filter: opacity(.9);
+}
+
+/*PSEUSOCODIGO: es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado*/
+
+/* TAMAÑO TABLET */
+@media (min-width:600px){
+    body{
+        grid-template-columns: 200px auto;
+        grid-template-rows: 100px 50px auto 100px;
+        grid-template-areas:  
+        "header header"
+        "nav nav"
+        "aside article"
+        "footer footer";
+    }
+}
+
+/* TAMAÑO ESCRITORIO */
+@media(min-width:900px){
+    body{
+        grid-template:
+        "header header header" 100px
+        "nav article aside" auto
+        "footer footer footer" 100px /200px auto 200px;
+    }
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+html{ background-color:#ECE5CB;}
+.menu{
+    background-color:coral;
+    text-align: center;
+    margin: 0px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    padding: 50px;
+    color: brown;
+    text-decoration: none;
+    display: block;
+
+}
+
+.menu a:hover{
+    background-color:bisque;
+    font-size:x-large;
+}
+.central{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 117, 4);
+    text-align: center;
+    overflow: hidden; /*Quitar el espacio sup. */
+    padding: 25px;
+}
+.contorno{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: rgb(255, 255, 255);
+    text-shadow: -6px 0 rgb(252, 9, 9), 0 0px rgb(255, 0, 0), 0px 0 rgb(255, 0, 0), 0 0px rgb(255, 0, 0);
+}
+.neon{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    COLOR: #1014fc; 
+    text-shadow: 0px 0px 15px #fc1ede;
+}
+.t3d{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgb(255, 0, 0), 0 0 5px rgb(255, 0, 0), 0 1px 3px rgb(255, 0, 0), 0 3px 5px rgb(255, 0, 0), 0 5px 10px rgb(255, 0, 0), 0 10px 10px rgb(255, 0, 0), 0 20px 20px rgb(255, 0, 0);
+
+}
+.foto{
+    width: 550px;
+    height: 400px;
+    margin: auto;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+caption{
+    font-size: 20px;color: darkred;
+}
+table{
+    table-layout: auto; 
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.cabeza{
+    background: #fc1ede;
+}
+td,tr{
+    width: 25%;
+    text-align: center;
+    border: 3px solid blueviolet;
+    padding: 2px;
+}
