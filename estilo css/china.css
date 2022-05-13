@@ -1,0 +1,161 @@
+*{margin: 0;}
+body{
+background-image: url(https://www.todofondos.net/wp-content/uploads/details-about-3d-effect-white-grey-geometric-wallpaper-textured-luxury-vinyl-modern-erismann.jpg);
+background-repeat:repeat-y repeat-x;
+background-size: 100%;
+}
+nav{
+    background:linear-gradient(#f0f8ff 20%,#0a0907);
+    font-size : 30px;
+    margin:auto ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.primario > li{
+    display: inline-block;;
+}
+.primario li a{
+    background:radial-gradient( #f0f8ff 20%,#0a0907); 
+    color:darkred;
+    text-decoration: none;
+    padding: 20px 17px;
+    display: block;
+}
+.primario li a:hover{
+    color: rgb(197, 108, 7);
+    font-size: 25px;
+}
+.primario li ul{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+.primario li:hover >ul{
+    display: block;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 35px;
+}
+hr{
+    border: 1.5px solid black;
+    width: 50%;
+}
+.china{
+    width: 100%;
+}
+.china p{
+    text-align: justify;
+    width: 50%;
+    margin: 30px 0px 30px 45px;
+    font-size: 18px;
+}
+.china img{
+    float: right;
+    width: 35%;
+    margin: 0px 45px 0px 0px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 60px 35px 0px 35px;
+}
+.pekin{
+    width: 100%;
+}
+.pekin p{
+    float: right;
+    text-align: justify;
+    width: 50%;
+    margin: 30px 45px 30px 0px;
+    font-size: 18px;
+}
+.pekin img{
+    width: 34%;
+    margin: 12px 0px 0px 48px;
+}
+.subtema{
+    font-size: 60px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-decoration: overline underline ;
+    margin: 35px 0 0px 0;
+}
+.shanghai h2{
+    text-align: center;
+}
+.shanghai p{
+    text-align: justify;
+    margin: 15px 25%;
+    font-size: 18px;
+}
+.shanghai img{
+    width: 45%;
+    margin: 0 28%;
+}
+.chengdu h2{
+    text-align: center;
+}
+.chengdu p{
+    text-align: justify;
+    margin: 15px 25%;
+    font-size: 18px;
+}
+.chengdu img{
+    width: 44%;
+    margin: 0 28%;
+}
+.xian h2{
+    text-align: center;
+}
+.xian p{
+    text-align: justify;
+    margin: 15px 25%;
+    font-size: 18px;
+}
+.xian img{
+    width: 44%;
+    margin: 0 28%;
+}
+.muralla h2{
+    text-align: center;
+}
+.muralla p{
+    text-align: justify;
+    margin: 15px 25%;
+    font-size: 18px;
+}
+.muralla img{
+    width: 44%;
+    margin: 0 28%;
+}
+.suzhou h2{
+    text-align: center
+}
+.suzhou p{
+    text-align: justify;
+    margin: 15px 25%;
+    font-size: 18px;
+}
+.suzhou img{
+    width: 44%;
+    margin: 0 28% 15px 28%;
+}
+footer{
+    background:linear-gradient(#0a0907 40%,#f0f8ff);
+}
+footer article{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+}
+.redes{
+    text-align: center;
+}
+

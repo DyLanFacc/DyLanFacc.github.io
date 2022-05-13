@@ -1,5 +1,6 @@
 *{margin: 0}
-body{background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sddbd9f1e83bf1d98/backgroundarea/i0140448c916764a9/version/1525903094/image.jpg);}
+body{
+background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sddbd9f1e83bf1d98/backgroundarea/i0140448c916764a9/version/1525903094/image.jpg);}
 .menu{
     background:linear-gradient( #FFF4E4 50%,#CFBFA8);
     text-align: center;
@@ -11,7 +12,6 @@ body{background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/pa
 }
 .menu a{
     padding: 40px;
-    color: black;
     text-decoration: none;
     display: block;
     font-size: 18px;
@@ -111,7 +111,7 @@ thead{
     table-layout: auto;
     width: 40%;
     border-collapse: collapse;
-    margin: 695px 400px 100px 400px;
+    margin: 725px 400px 100px 400px;
 }
 .tabla5 td,tr{
     width: 25%;
