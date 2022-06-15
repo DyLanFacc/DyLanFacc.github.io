@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+html{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/410/822/non_2x/grey-cat-on-pink-background-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titulo{
+    display: flow-root;
+}
+.titulo article a{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 1% 0;
+}
+.titulo article p{
+    float: right;
+    width: 75%;
+    font-size: 5em;
+    text-align: left;
+    padding: 1% 0;
+}
+
+.titulo img{
+    width: 50%;
+}
+
+.texto{
+    text-align: center justify;
+    padding: 2%;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    color:calc();
+}
+
+
+.contenedor{
+    display: flex;
+    /* los divs internos esten centrados */
+}
+
+.lista{
+    display: flex;
+    /* no se vizualise la barra de desplazamiento */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0;
+}
+
+.flor{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    /* borde exterior a la foto */
+    outline: 2px solid rgb(2, 101, 101);
+    cursor: pointer;
+}
+
+.lista img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lista img:hover{
+    transform: scale(1.2);
+}
