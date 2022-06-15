@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2? family= Barlow:wght@100 & family= Poppins:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Barlow:wght@100 & familia= Bebas+Neue &family= Poppins:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Barlow:wght@100 & familia= Bebas+Neue &familia= Cairo:peso@200 &family= Poppins:wght@100 & display=swap');
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box
+}
+body>*{
+    border-radius: 16px;  padding: 10px;  text-align: center;
+}
+html{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/736/717/non_2x/abstract-black-background-design-banner-pattern-background-template-suitable-for-various-background-design-template-banner-poster-presentation-etc-vector.jpg);
+    background-repeat:repeat-y repeat-x;
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul{
+    list-style: none;
+}
+nav.navprincipal{
+    display: block;
+    position: relative;
+    height: 90px;
+    width: 120px;
+    margin: 0;
+    overflow: hidden;
+}
+.inicio{
+    border-left: rgb(255, 196, 0) 0.4em;
+        border-left-style:inset ;
+        cursor: pointer;
+}
+.ejercicios{
+    border-left: rgb(255, 196, 0) 0.4em;
+    border-left-style:inset ;
+    cursor: pointer;
+}
+.practicas{
+    border-left: rgb(255, 196, 0) 0.4em;
+    border-left-style:inset ;
+    cursor: pointer;
+}
+nav{
+    font-size : 20px;
+    margin:auto;
+    font-family: 'Barlow', sans-serif;
+    text-align:left;
+}
+.navprincipal>li{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+}
+.navprincipal li a{
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    color: aliceblue;
+}
+.navprincipal li ul{
+    display: none;
+    position: relative;
+    min-width: 200px;
+}
+.navprincipal li:hover ul{
+    display: block;
+    display: table;
+    background-color: #1414149c;
+    border-radius: 15px; ;
+    font-size: 20px;
+}
+.titulo{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flow-root;
+    color: aliceblue;
+}
+.titulointerno{
+    float: left;
+    width: 80%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    letter-spacing: 10px;
+}
+.imgtitulo{
+    float: right;
+    width: 20%;
+}
+.imgtitulo img{
+    width: 100px;
+}
+.contenido{
+    color: aliceblue;
+}
+.pregunta1{
+    display: flow-root;
+}
+.titulo1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+}
+.info1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    text-align: justify;
+    width: 50%;
+    float: left;
+    letter-spacing: 1px;
+}
+.img1{
+    width: 50%;  
+    float: right;  
+}
+.img1 img{
+    width: 100%;
+}
+.pregunta2{
+    display: flow-root;
+}
+.titulo2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5em;
+    text-align: right;
+}
+.info2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    text-align: justify;
+    width: 50%;
+    float: right;
+    letter-spacing: 1px;
+}
+.img2{
+    width: 50%;  
+    float: left;  
+}
+.img2 img{
+    width: 100%;
+}
+.listaweb{
+    display: flow-root;
+}
+.titulo3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.listaA{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.listaA p{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+.listaA img{
+    width: 80%;
+}
+.listaB{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.listaB p{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+.listaB img{
+    width: 90%;
+}
+.footer{
+    background-image: url(https://us.123rf.com/450wm/claudiodivizia/claudiodivizia1604/claudiodivizia160401822/55968055-papel-de-color-gris-%C3%BAtil-como-una-textura-de-fondo.jpg?ver=6);
+    background-repeat:repeat-y repeat-x;
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.infoyred{
+    display: flow-root;
+}
+.fuentes{
+    text-align: left;
+    width: 50%;
+    float: left;
+    color: rgba(214, 189, 0, 0.868);
+}
+.fuentes a{
+    text-decoration: none;
+    color: rgba(214, 189, 0, 0.868);
+}
+.redes{
+    text-align: right;
+    width: 50%;
+    float: right;
+    color: rgba(214, 189, 0, 0.868);
+}
+.creador{
+    color: rgba(214, 189, 0, 0.868);
+}
