@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2? family= Barlow:wght@100 & family= Bebas+Neue & family= Cairo:wght@200 & family= Fascinate & family= Poppins: peso@100 & mostrar=cambiar');
+
+@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:wght@200 & display=swap');
+
+html{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/443/14/360/technology-motor-machine-engines-wallpaper-preview.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.head{
+    display: flow-root;
+}
+
+.inicio img{
+    width: 10%;
+    float: left;
+}
+
+.titulo{
+    width: 90%;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color:black;
+    font-size: 3em;
+    color: aliceblue;
+    width: 85%;
+    text-shadow:  0 0 0.2em #87F, 0 0 0.2em #87F,
+    0 0 0.2em #87F
+}
+
+.formulario{
+    margin: 40px 0 0 25%;
+    display: flow-root;
+    width: 50%;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.formulario p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.ingrese{
+    width: 40%;
+    text-align: center;
+    margin: 0 30%;
+    padding: 10px 0;
+}
+
+.ingrese button{
+
+    font-size: 1.5em;
+}
