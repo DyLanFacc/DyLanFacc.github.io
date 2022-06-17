@@ -9,5 +9,5 @@ document.getElementById("boton").addEventListener("click",function(){
     let edad = document.getElementById("edad").value
 
     //mostrar la información
-    document.getElementById("salida").innerHTML= "Bienvenido "+nombre+" a nuestra tienda vitual y queremos agradecerte, ya que a tus "+edad+" años de pudiste visiatr nuestro sitio web."
+    document.getElementById("salida").innerHTML= "Bienvenido "+nombre+" a nuestra tienda vitual y queremos agradecerte, ya que a tus "+edad+" años de pudiste visitar nuestro sitio web."
 })
