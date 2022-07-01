@@ -1,0 +1,90 @@
+/* general */
+@import url('https://fonts.googleapis.com/css2? family= Dosis:wght@200 & family= M+PLUS+1+Code & family= Nunito+Sans:wght@200 & display= intercambio');
+*{
+    margin: 0;
+}
+html{
+    background-image: url(/img/fondo\ firebase.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* parte superior */
+.tema{
+    display: flow-root;
+    width: 100%;
+}
+.titulo{
+    width: 65%;
+    float: left;
+}
+.titulo p{
+    font-size: 3em;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    padding: 2%;
+    letter-spacing: 6px;
+    color: darkorange;
+    font-weight: 900;
+}
+.logo{
+    width: 30%;
+    float: right;
+    padding: 2%;
+}
+.logo img{
+    width: 100%;
+}
+/* contenido */
+.contenido{
+    margin: 0 0 0 1.5%;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.contenedor1{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+}
+.contenedor1 p{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    font-size: 2em;
+    color: aliceblue;
+    font-family: 'Dosis', sans-serif;
+}
+.contenedor2{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+}
+.contenedor2 p{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    font-size: 2em;
+    color: aliceblue;
+    font-family: 'Dosis', sans-serif;
+}
+.contenedor3{
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+}
+.contenedor3 p{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    font-size: 2em;
+    color: aliceblue;
+    font-family: 'Dosis', sans-serif;
+}
+/* enlaces */
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a :hover{
+    filter: opacity(.5);
+}
