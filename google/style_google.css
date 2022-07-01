@@ -1,0 +1,75 @@
+/* general */
+@import url('https://fonts.googleapis.com/css2? family= Dosis:wght@200 & family= M+PLUS+1+Code & family= Nunito+Sans:wght@200 & display= intercambio');
+/* https://fondosmil.com/fondo/9974.png */
+*{
+    margin: 0;
+}
+html{
+    background-image:url(http://www.fondoswiki.com/Uploads/fondoswiki.com/ImagenesGrandes/fondo-de-un-gato-domestico.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+/* inicio */
+.atras{
+    background-color: rgb(205, 206, 206);
+    display:flex;
+    width: 10%;
+    margin: 2% 0 0 2%;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+.atras a{
+    padding-left: 32px;
+    padding-top: 1.5px;
+    padding-bottom: 1,5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+.atras a:hover{
+    font-size: large;
+}
+/* formulario */
+.inicioS{
+    backdrop-filter:brightness(60%);
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 14% 0 0 5%;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.inicioS h1{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    padding-bottom: 70px;
+    padding-top: 25px;
+    color: rgb(150, 53, 241);
+    font-weight:bold;
+}
+.inicioS p{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: 540;
+    font-family: 'Dosis', sans-serif;
+    color: aliceblue;
+}
+.inicioS button{
+    margin-left: 28%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 550;
+    background-color:rgb(168, 82, 248) ;
+    border: 0;
+    border-radius: 6px;
+    padding: 5px;
+    font-family: 'Dosis', sans-serif;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/google/style_google.css">
+    <link rel="shortcut icon" href="https://images.rappi.pe/products/913b0cd4-06a2-480e-aded-802b5b18c085.png?d=200x200&e=webp" type="image/x-icon">
+    <title>Acceder a Google</title>
+</head>
+<body>
+    <div class="IniGoogle">
+        <div class="atras"><a href="/Acti_4.html" class="botton">INICIO</a></div>
+
+        <div class="inicioS">
+            <section class="S1"><h1>EMPRESA CRICOCAT</h1></section>
+        
+            <section class="S2"><P>Te invitamos a formar parte de nuestra familia accediendo a tu cuenta google</P></section>
+
+            <section class="S3"><button id="google">REGISTRATE CON GOOGLE</button></section>
+        </div>
+    </div>
+        <script type="module">
+  // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js";
+    import { GoogleAuthProvider, getAuth, signInWithRedirect, getRedirectResult } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+    const firebaseConfig = {
+    apiKey: "AIzaSyAuzRasRSVxIAVUscXAISwlQr9N6uR8m2M",
+    authDomain: "usuarios-fa011.firebaseapp.com",
+    projectId: "usuarios-fa011",
+    storageBucket: "usuarios-fa011.appspot.com",
+    messagingSenderId: "836412228463",
+    appId: "1:836412228463:web:a04b8229b327d688785e9a"
+    };
+
+  // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const provider = new GoogleAuthProvider();
+
+    //Creamos un evento con el boton GOOGLE
+    document.getElementById("google").addEventListener("click", function(){
+        signInWithRedirect(auth, provider);
+        getRedirectResult(auth)
+        .then((result) => {
+    // This gives you a Google Access Token. You can use it to access Google APIs.
+    const credential = GoogleAuthProvider.credentialFromResult(result);
+    const token = credential.accessToken;
+
+    // The signed-in user info.
+    const user = result.user;
+        }).catch((error) => {
+    // Handle Errors here.
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // The email of the user's account used.
+    const email = error.customData.email;
+    // The AuthCredential type that was used.
+    const credential = GoogleAuthProvider.credentialFromError(error);
+    // ...
+        });
+    })
+
+</script>
+
+</body>
+</html>
